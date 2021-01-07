@@ -1,0 +1,71 @@
+<html>
+<head>
+	<title>WebD Task-1</title>
+</head>
+<body>
+	<header>
+		<div>
+			<a href="#RegForm">Registration Form</a>|
+			<a href="#Contact">Contact Us</a>|
+			<a href="#about">About this Page</a>|
+			<a href="#tasks">Projects</a>|
+		</div>	
+	</header>	
+	<a name="RegForm">
+	<h1>Students Registration Form</h1>
+	<form>
+		<fieldset style="background-color:aqua; border-color:red; border-width:4px; border-style:inset; width:40%;">
+			<legend>NAME</legend>
+			First Name:<input style="border-width:2px; border-color:hotpink;" type="text" name="Fname" maxlength="20" placeholder="First Name" required><br>
+			Last Name:<input style="border-width:2px; border-color:hotpink;" type="text" name="Lname" maxlength="20" placeholder="Last Name" required><br>
+		</fieldset>
+		<fieldset style="background-color:lime; border-color:red; border-width:4px; border-style:outset; width:40%;">
+			<legend>ABOUT</legend>
+			Date Of Birth:<input style="border-width:2px; border-color:hotpink;" type="Date" name="DoB" max="01-01-2020" required><br>
+			Fathers Name:<input style="border-width:2px; border-color:hotpink;" type="text" name="FatherName" maxlength="20" placeholder="Enter First name only" required><br>
+			Gender:<select name="Gender">
+				<option value="Male">Male</option>
+				<option value="Female">Female</option>
+				<option value="Others" selected>Others</option>
+			</select>
+		</fieldset>
+		<fieldset style="border-width:2px; border-color:coral; border-style:dashed; width:40%; background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%)">
+			<legend>Document for verification</legend>
+			<input type="radio" name="Docs">Aadhar<br>
+			<input type="radio" name="Docs">Driving License<br>
+			<input type="radio" name="Docs">PAN Card<br>
+			<input type="radio" name="Docs">Driving License<br>
+			<input type="radio" name="Docs" checked>Others<br>
+		</fieldset><br><br>
+		<textarea style="border-width:3px; border-color:green; border-style:groove; width:40%; background: linear-gradient(to top left, #00ff00 25%, #00ffff 100%);" maxlength="200" placeholder="Write your comment about this webpage (max limit=500 words)" rows="10"></textarea><br>
+		<fieldset style="width:40%">
+			<input type="checkbox" name="Confirmation" required>I <i>confirmed all the details</i> submitted by me. I declare that all the details are <u>completely true</u> and <u>best of my knowledge</u>. If any details are found incorrect at any time, I give right to owner to take <b>serious action</b> against me.<br>
+		</fieldset><br>
+		<input type="submit" name="submit" style="background: linear-gradient(to top left, #ffff00 10%, #0099ff 100%); width:100px; height:30px;">
+	</form>
+	</a>
+	<a name="about">
+		<h3>About This Page</h3>
+		This page is designed as instructed by WebD wing cordinators for Task-1.
+	</a>
+	<a name="tasks">
+		<h3>Tasks Done By Me in Apreoksha Month</h3>
+		<ol>
+			<li>FOSS Wing Task-1:- Fork, Clone a Repository and Creating a pull request</li>
+			<li>FOSS Wing Task-2:- MErge and Solving Merge Conflicts</li>
+		</ol>	
+	</a>
+	<footer>
+		<a name="Contact">
+			<div>
+				MADE BY <b><u>@SpiralForge</u></b> 
+				<a href="tel:+916265119378"><img style="width:20px; height:20px;" src="https://e7.pngegg.com/pngimages/915/706/png-clipart-blue-call-icon-dialer-android-google-play-telephone-phone-blue-text.png"></a>
+				<a href="mailto:iit2020074@iiita.ac.in"><img style="width:20px; height:20px;" src="https://www.thewellproject.org/sites/default/files/media/email%20logo.jpg"></a>
+				<a href="https://www.facebook.com/abhay.parihar.549/"><img style="width:20px; height:20px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZ9mryCCgGODrz_sffFC5TMTBhLd5rF-SXfQ&usqp=CAU"></a>
+				<a href="https://www.instagram.com/spiralforge_746726/"><img style="width:20px; height:20px;" src="https://www.edigitalagency.com.au/wp-content/uploads/new-instagram-logo-png-transparent-light-e1607555930353.png"></a>
+				<a href="https://github.com/ABHAY0PARIHAR"><img style="width:20px; height:20px;" src="https://avatars0.githubusercontent.com/u/9919?s=280&v=4"></a>
+			</div>
+		</a>
+	</footer>	
+</body>	
+</html>
